@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+p{
+    margin: 10px 0 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.login-container {
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fa-small {
+    font-size: 16px !important;
+}
+
+.btn-float{
+    float: left;
+    margin-right: 10px;
+}
+
+.img-small {
+    width: 180px;
+}
+
+.image-box {
+
+    /* Here's the trick */
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  
+    /* Basic background styles */
+    background: var(--image-url) center center no-repeat;
+    background-size: cover;
+  
+    /* Here's the same styles we applied to our content-div earlier */
+    color: white;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
